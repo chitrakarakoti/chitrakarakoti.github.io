@@ -1,0 +1,35 @@
+body{
+    background-color: lightcyan;
+}
+
+#box{
+    background-color:rgb(233, 179, 103);
+    height: 300px;
+    width: 600px;
+    visibility: hidden;
+}
+
+#box.show{
+    visibility: visible;
+}
+
+i{
+    margin-top: 20px;
+    float: right;
+    
+}
+
+.btn{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.closeBtn{
+    height: 5%;
+    width: 5%;
+    float: right;
+    margin-top: -40px;
+}
